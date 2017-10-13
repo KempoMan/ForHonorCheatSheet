@@ -20,6 +20,10 @@ import { KnightConquerorComponent } from './knight-conqueror/knight-conqueror.co
 import { KnightLawbringerComponent } from './knight-lawbringer/knight-lawbringer.component';
 import { KnightPeacekeeperComponent } from './knight-peacekeeper/knight-peacekeeper.component';
 import { KnightWardenComponent } from './knight-warden/knight-warden.component';
+import { KnightCenturionComponent } from './knight-centurion/knight-centurion.component';
+import { SamuraiShinobiComponent } from './samurai-shinobi/samurai-shinobi.component';
+import { VikingHighlanderComponent } from './viking-highlander/viking-highlander.component';
+import { KnightGladiatorComponent } from './knight-gladiator/knight-gladiator.component';
 
 @NgModule({
 	declarations: [
@@ -36,7 +40,11 @@ import { KnightWardenComponent } from './knight-warden/knight-warden.component';
 		KnightConquerorComponent,
 		KnightLawbringerComponent,
 		KnightPeacekeeperComponent,
-		KnightWardenComponent
+		KnightWardenComponent,
+		KnightCenturionComponent,
+		SamuraiShinobiComponent,
+		VikingHighlanderComponent,
+		KnightGladiatorComponent
 	],
 	imports: [
 		BrowserModule,
@@ -53,11 +61,14 @@ import { KnightWardenComponent } from './knight-warden/knight-warden.component';
 			{ path: 'viking-warlord', component: VikingWarlordComponent },
 			{ path: 'viking-berserker', component: VikingBerserkerComponent },
 			{ path: 'viking-valkyrie', component: VikingValkyrieComponent },
+			{ path: 'viking-highlander', component: VikingHighlanderComponent },
 			{ path: 'knight-conqueror', component: KnightConquerorComponent },
 			{ path: 'knight-lawbringer', component: KnightLawbringerComponent },
 			{ path: 'knight-peacekeeper', component: KnightPeacekeeperComponent },
-			{ path: 'knight-warden', component: KnightWardenComponent }
-			
+			{ path: 'knight-warden', component: KnightWardenComponent },
+			{ path: 'knight-centurion', component: KnightCenturionComponent },	
+			{ path: 'knight-gladiator', component: KnightGladiatorComponent },	
+			{ path: 'samurai-shinobi', component: SamuraiShinobiComponent }
 		])
 	],
 	providers: [],
